@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="/img/favicon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <title>Wiedmann Coffee Machine</title>
+  </head>
+  <body id="main-body">
+    <nav id="navigation">
+      <div id="logo">
+        <a href="index.html#main-body">
+          <img src="/img/logo.png" alt="website logo" />
+        </a>
+      </div>
+      <div id="menu">
+        <ul>
+          <li><a href="index.html#on-sale">On Sale</a></li>
+          <li><a href="index.html#tamper">Tamper</a></li>
+          <li><a href="index.html#show-us">Show Us</a></li>
+          <li><a href="index.html#footer">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div id="icons">
+        <i
+          class="fas fa-search"
+          data-toggle="tooltip"
+          title="search our store"
+        ></i>
+        <i class="fas fa-user" data-toggle="tooltip" title="account"></i>
+        <i
+          class="fas fa-shopping-bag"
+          data-toggle="tooltip"
+          title="shopping cart"
+        ></i>
+      </div>
+    </nav>
+
+    <!-- Contact Form Begins -->
+    <section id="contact-container">
+      <h2>Contact Us</h2>
+      <form>
+        <div id="name-email-container">
+          <div>
+            <input
+              type="text"
+              class="form-control"
+              id="contact-name"
+              placeholder="Name"
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              class="form-control"
+              id="contact-email"
+              placeholder="Email"
+              pattern=".+@globex\.com"
+              size="30"
+              required
+            />
+          </div>
+        </div>
+
+        <div>
+          <textarea
+            name="message"
+            id="contact-message"
+            cols="30"
+            rows="5"
+            class="form-control"
+            placeholder="Message"
+          ></textarea>
+        </div>
+
+        <div id="submit-button">Submit</div>
+      </form>
+    </section>
+
+    <!-- Contact Form Ends -->
+    <div id="footer">
+      <h2>About Our Company</h2>
+      <div id="footer-info">
+        <div id="footer-info-1">
+          <h3>Help Area</h3>
+          <h3>Wiedemann Warranty</h3>
+          <h3>Request a Return</h3>
+          <h3>Become a reseller</h3>
+        </div>
+        <div id="footer-info-2">
+          <div class="display-flex-column">
+            <h3>Read Our Newsletter</h3>
+            <i class="fas fa-book-reader"></i>
+          </div>
+          <div class="display-flex-column">
+            <h3 class="margin-top-30">Social Media</h3>
+            <div id="social-media">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        <div id="footer-info-3">
+          <h3>Address</h3>
+          <p>Wiedemann Manufaktur</p>
+          <p>Friedhofstrabe 8</p>
+          <p>88255 Baienfurt</p>
+          <p>Germany</p>
+        </div>
+      </div>
+      <hr />
+      <div id="footer-payment-shipping">
+        <div id="footer-payment" class="display-flex-column">
+          <h4>Payment Method</h4>
+          <div>
+            <i class="fab fa-paypal"></i>
+            <i class="fab fa-cc-visa"></i>
+            <i class="fab fa-cc-amex"></i>
+            <i class="fab fa-cc-mastercard"></i>
+          </div>
+        </div>
+        <div id="footer-shipping" class="display-flex-column">
+          <h4>Shipping Method</h4>
+          <div><i class="fab fa-ups"></i> <i class="fab fa-dhl"></i></div>
+        </div>
+      </div>
+      <hr />
+      <div id="footer-copyright">&copy; 2021 | Designed by Richard Knott</div>
+    </div>
+
+    <script src="/js/fontawesome.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
